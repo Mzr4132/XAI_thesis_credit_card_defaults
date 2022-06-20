@@ -1,6 +1,5 @@
-# thesis
-Hello! 
+# Predicting credit card defaults and analyzing the explainability
+When customers come in financial difficulties, it usually does not happen completely out of the blue. There are indicators which can be used to anticipate the final outcome, such as late payments, calls to the customer services, enquiries about the products, a different browsing pattern on the web or mobile app. By using such patterns it is possible to prevent, or at least guide the process and provide a better service for the customer as well as reduced risks for the bank.
 
-In this repository a machine learning model can be found that was used for my Bsc thesis. In it the output is saved from the model itself. 
-It contains an exploratory analysis of our variables, feature selection, training and testing of the model, evaluation of explainability with SHAP.
-The exploratory analysis was taken from Natalino's model which can be found here: https://github.com/natbusa/deepcredit
+In this project an attempt is made to predict defaulting, using statistics, machine learning and deep learning. This is done through making use of a dataset that contains data about payments, delayed payments, amounts to be payed and information wether the person defaulted within the next 6 months or not. The main focus of this project is to see how XAI algorithms, in particular SHAP values can be used to generate explanations for why a default could occur 6 months down the line. This project forms the basis upon which a knowledge base could be build that could generate automated explanations and automated warnings. An automated warning might be interesting to prevent a default from occurring a few months down the road. SHAP offers the unique property that you can look at a case by case basis which factors influenced an algorithm to give a classification (e.g. default or not default).
+
